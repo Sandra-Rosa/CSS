@@ -1,0 +1,38 @@
+/* using pixels */
+#box1 {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+/* using em */
+#box2 {
+    font-size: 2em;
+    background-color: green;
+}
+
+/* using percentage */
+#box3 {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+/* using rem */
+#box4 {
+    font-size: 1.5rem;
+    background-color: yellow;
+}
+
+/* using viewport units */
+#box5 {
+    width: 50vw;
+    height: 50vh;
+    background-color: orange;
+}
+
+/* using absolute units */
+#box6 {
+    width: 4in;
+    height: 2in;
+    background-color: purple;}

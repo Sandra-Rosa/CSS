@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Layout Example</title>
+	<style>
+		.container {
+			display: flex;
+			justify-content: space-between;
+			align-items: stretch;
+			flex-wrap: wrap;
+		}
+
+		.box {
+			flex: 1;
+			margin: 10px;
+			padding: 10px;
+			border: 1px solid black;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<h2>Column 1</h2>
+			<p>This is the content of column 1.</p>
+		</div>
+		<div class="box">
+			<h2>Column 2</h2>
+			<p>This is the content of column 2.</p>
+		</div>
+		<div class="box">
+			<h2>Column 3</h2>
+			<p>This is the content of column 3.</p>
+		</div>
+	</div>
+</body>
+</html>

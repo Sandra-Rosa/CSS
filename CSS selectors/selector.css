@@ -1,0 +1,26 @@
+/* Element Selector */
+p {
+    color: blue;
+  }
+/* ID Selector */ 
+#header {
+    background-color: grey;
+  }
+/* Class Selector */
+.class1{
+    color:blueviolet;
+}
+/* Descendant Selector */
+.container p{
+    color:brown
+}
+/* Child Selector */
+ul > li {
+    list-style: none;
+  }
+  
+/* Attribute Selector */
+a[target="_blank"] {
+    color: red;
+  }
+  
